@@ -5,3 +5,6 @@
 public <T> T method(T t){
 }
 ```
+## 12-22
+list集合中有 fail-fast机制，出现集合遍历，改变元素，就会报ConcurrentModificationException
+  为什么会报这个错
